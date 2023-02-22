@@ -1,13 +1,11 @@
 import './settings.scss';
+import Userdatainput from "./userdatainput";
 
 const Settings = () => {
     return (
       <div id="userSettings" className="userSettingsDiv">
         <form id="userSettingsInput">
-          <h2>Användar inställningar:</h2>
-          <label>Namn:
-            <input placeholder="Förnamn" type="text" id="forName" />
-          </label>
+          <Userdatainput />
           <h2>Personbästa:</h2>
           <div>
             <label>Ryck
