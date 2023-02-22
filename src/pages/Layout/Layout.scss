@@ -1,0 +1,68 @@
+@import '../../variables.scss';
+
+header {
+    display: flex;
+    min-width: 320px;
+
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .logo {
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        color: $dark-yellow;
+        width: 62px;
+        height: 62px;
+
+        background-color: $dark-green;
+        border: 5px solid $dark-yellow;
+        border-radius: 36px;
+
+        position: relative;
+
+        will-change: filter;
+        transition: filter 300ms;
+        
+        &:hover {
+            filter: drop-shadow(0 0 2em $dark-yellow);
+        }
+
+        & span {
+            position: absolute;
+            top: 25%;
+            left: 15%;
+
+        }
+    }
+}
+
+nav {
+    display: flex;
+
+    ul {
+        padding-left: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        
+        li span {
+            padding-right: 10px;
+        }
+
+        li a {
+            color: $almost-white;
+            text-decoration: underline dotted $almost-white 1px;
+    
+        }
+    }
+    
+    
+}
