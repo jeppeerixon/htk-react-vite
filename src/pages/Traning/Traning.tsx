@@ -1,7 +1,7 @@
 export default function Traning() {
   
   return (
-    <h1>Träningsplanering</h1>
+    <h1>Träningsplanering!</h1>
 
   );
 }
