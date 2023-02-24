@@ -1,9 +1,9 @@
-const Userdatainput = () => {
+const Userdatainput = (props:
+  { name: string, type: string, id: string, }) => {
     return (
         <>
-          <h2>Användar inställningar:</h2>
-          <label>Namn:
-            <input placeholder="Förnamn" type="text" id="forName" />
+          <label>{props.name}
+            <input placeholder={props.name} type={props.type} id={props.id} />
           </label>
         </>
     )

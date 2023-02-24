@@ -1,41 +1,20 @@
 import './settings.scss';
-import Userdatainput from "./userdatainput";
+import Userdatainput from "./Userdatainput";
 
 const Settings = () => {
     return (
       <div id="userSettings" className="userSettingsDiv">
         <form id="userSettingsInput">
-          <Userdatainput />
+          <h2>Användar inställningar:</h2>
+          <Userdatainput name="Förnamn" type="text" id="firstName" />
+          
           <h2>Personbästa:</h2>
           <div>
-            <label>Ryck
-              <input placeholder="KG" type="number" id="snatchRepMaxValue" />
-            </label>
-            <label>Stöt
-              <input placeholder="KG" type="number" id="cleanRepMaxValue" />
-            </label>
+          <Userdatainput name="Ryck" type="number" id="snatchRepMaxValue" />
+          <Userdatainput name="Stöt" type="number" id="cleanRepMaxValue" />
           </div>
           <div>
-            <label>Bakböj
-              <input placeholder="KG" type="number" id="snatchRepMaxValue" />
-            </label>
-            <label>Frontböj
-              <input placeholder="KG" type="number" id="cleanRepMaxValue" />
-            </label>
-            <label>Marklyft
-              <input placeholder="KG" type="number" id="cleanRepMaxValue" />
-            </label>
-          </div>
-          <div>
-            <label>Press
-              <input placeholder="KG" type="number" id="snatchRepMaxValue" />
-            </label>
-            <label>Överstöt
-              <input placeholder="KG" type="number" id="cleanRepMaxValue" />
-            </label>
-            <label>Press nacke
-              <input placeholder="KG" type="number" id="cleanRepMaxValue" />
-            </label>
+            {/* Fler framtida datainputs här */}
           </div>
           <div className="btnMode">
             <button>Spara</button>
