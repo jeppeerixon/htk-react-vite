@@ -1,6 +1,7 @@
 @import '../../variables.scss';
 
 #weekInfo {
+    text-align: center;
     min-width: 320px;
     min-height: 175px;
     background-color: $light-gray;
@@ -18,20 +19,16 @@
 }
 
 #weekInfo button {
-    text-align: center;
-    background: #fffc;
-    border: 1px solid gray;
+    color: $almost-white;
+    background: $almost-black;
+    border: 1px solid $light-gray;
     border-radius: 20px;
-    margin-right: 10px;
+    padding: 10px;
     transition: transform .3s
 }
 
 #weekInfo button:hover {
-    background-color: #fff;
-    border: 1px solid #000;
-    transform: scale(1.05)
-}
-
-#weekInfo .doneWeek {
-    background: #00ff0080
+    background-color: $light-gray;
+    border: 1px solid $almost-black;
+    transform: scale(1.025)
 }
