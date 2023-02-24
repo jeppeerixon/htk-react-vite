@@ -1,0 +1,37 @@
+@import '../../variables.scss';
+
+#weekInfo {
+    min-width: 320px;
+    min-height: 175px;
+    background-color: $light-gray;
+    border-radius: 25px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 20px 10px;
+    display: flex
+}
+
+#weekInfo h2 {
+    margin: 0;
+    font-size: 24px
+}
+
+#weekInfo button {
+    text-align: center;
+    background: #fffc;
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: transform .3s
+}
+
+#weekInfo button:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+    transform: scale(1.05)
+}
+
+#weekInfo .doneWeek {
+    background: #00ff0080
+}
