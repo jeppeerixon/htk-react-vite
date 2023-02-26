@@ -14,15 +14,21 @@ const Navbar = () => {
           </li>
           <li>
             <span className="material-symbols-rounded">
-            settings
+            query_stats
             </span>
-            <Link to="/settings">Settings</Link>
+            <Link to="/stats">Stats</Link>
           </li>
           <li>
             <span className="material-symbols-rounded">
             calculate
             </span>
             <Link to="/tools">Tools</Link>
+          </li>
+          <li>
+            <span className="material-symbols-rounded">
+            settings
+            </span>
+            <Link to="/settings">Settings</Link>
           </li>
         </ul>
     </nav>

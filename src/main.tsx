@@ -5,7 +5,9 @@ import Traning from "./pages/Traning/Traning";
 import Settings from "./pages/Settings/Settings";
 import Tools from "./pages/Tools/Tools";
 import NoPage from "./pages/NoPage/NoPage";
+import Stats from "./pages/Stats/Stats";
 import './App.scss';
+
 
 
 export default function App() {
@@ -14,8 +16,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Traning />} />
-          <Route path="settings" element={<Settings />} />
+          <Route path="stats" element={<Stats />} />
           <Route path="tools" element={<Tools />} />
+          <Route path="settings" element={<Settings />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
