@@ -1,5 +1,5 @@
 import './settings.scss';
-import Userdatainput from "./Userdatainput";
+import Userdatainput from "../../components/Userdatainput";
 
 const Settings = () => {
     return (
