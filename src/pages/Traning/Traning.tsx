@@ -1,9 +1,9 @@
 import "./traning.scss";
-import Weeklyschedule from "./Weeklyschedule";
-import Dayprogram from "./Dayprogram";
+import Weeklyschedule from "../../components/Weeklyschedule";
+import Dayprogram from "../../components/Dayprogram";
 import { tisdag, torsdag, passtre, passfyra, weekninename } from "../../data/weeknineprog";
 import { useState } from "react";
-import Setsandreps from "./Setandreps";
+import Setsandreps from "../../components/Setandreps";
 
 
 export default function Traning() {
