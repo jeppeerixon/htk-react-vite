@@ -32,3 +32,29 @@
     border: 1px solid $almost-black;
     transform: scale(1.025)
 }
+
+div button {
+    color: $almost-white;
+    background: $light-gray;
+    border: 1px solid $light-gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    transition: transform .3s
+}
+
+.repsAndSets {
+    display: flex;
+    flex-direction: column;
+
+
+    button {
+        color: $almost-white;
+        background: $almost-black;
+        border: 1px solid $light-gray;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        transition: transform .3s
+    }
+}

@@ -1,7 +1,11 @@
-const Weeklyschedule = () => {
+import { useState } from "react"
+
+const Weeklyschedule = ( props:
+  { name: string, funk: any} ) => {
+
     return (
         <>
-          <button>PLACEHOLDER</button>
+          <button value={ props.name } onClick={props.funk} >{ props.name }</button>         
         </>
     )
 }
