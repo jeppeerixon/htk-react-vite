@@ -62,7 +62,8 @@ export const torsdag =
         "setsDone": [false, false, false, false, false],
         "description": "Primer: Ryck nacke utan bendriv 4x3reps @ 38%",
         "done": false,
-        "TypeOfPr": "snatch"
+        "TypeOfPr": "snatch",
+        "ovningNr": 0
     },
     {
         "name": "Ryck",
@@ -71,7 +72,8 @@ export const torsdag =
         "setsDone": [false, false, false, false, false, false],
         "description": "",
         "done": false,
-        "TypeOfPr": "snatch"
+        "TypeOfPr": "snatch",
+        "ovningNr": 1
     },
     {
         "name": "Vändning",
@@ -80,7 +82,8 @@ export const torsdag =
         "setsDone": [false, false, false, false, false, false],
         "description": "",
         "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "clean",
+        "ovningNr": 2
     },
     {
         "name": "Stöt från rack",
@@ -89,7 +92,8 @@ export const torsdag =
         "setsDone": [false, false, false, false, false, false],
         "description": "Stöt från rack",
         "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "clean",
+        "ovningNr": 3
     },
     {
         "name": "Bakböj",
@@ -98,7 +102,8 @@ export const torsdag =
         "setsDone": [false, false, false, false, false, false],
         "description": "",
         "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "clean",
+        "ovningNr": 4
     }
 ];
 
@@ -111,7 +116,8 @@ export const passtre =
         "setsDone": [false, false, false, false, false],
         "description": "Primer: Rycknacke utan bendriv 4x3 reps på max 33%",
         "done": false,
-        "TypeOfPr": "snatch"
+        "TypeOfPr": "snatch",
+        "ovningNr": 0
     },
     {
         "name": "Ryck nacke",
@@ -120,7 +126,8 @@ export const passtre =
         "setsDone": [false, false, false, false, false, false],
         "description": "Ryck nacke med bendriv",
         "done": false,
-        "TypeOfPr": "snatch"
+        "TypeOfPr": "snatch",
+        "ovningNr": 1
     },
     {
         "name": "Stöt",
@@ -129,7 +136,8 @@ export const passtre =
         "setsDone": [false, false, false, false, false, false],
         "description": "",
         "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "clean",
+        "ovningNr": 2
     },
     {
         "name": "Vändning + paus + frontböj",
@@ -138,7 +146,8 @@ export const passtre =
         "setsDone": [false, false, false, false, false, false],
         "description": "Frivändning med 3 sek paus i fångläget + frontböj: 1+1=1 rep.",
         "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "clean",
+        "ovningNr": 3
     },
     {
         "name": "Stötdrag",
@@ -147,16 +156,8 @@ export const passtre =
         "setsDone": [false, false, false, false, false, false],
         "description": "Stötdrag med långsamt drag tom mitten lår, sen full fart",
         "done": false,
-        "TypeOfPr": "clean"
-    },
-    {
-        "name": "Hantelpress",
-        "percent": [24,	26,	27,	30,	33],
-        "reps": [5, 5, 5, 5, 5],
-        "setsDone": [false, false, false, false, false, false],
-        "description": "Sittande hantelpress, utan ryggstöd",
-        "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "clean",
+        "ovningNr": 4
     }
 ];
 
@@ -169,7 +170,8 @@ export const passfyra =
         "setsDone": [false, false, false, false, false],
         "description": "Primer: Rycknacke utan bendriv 5-8x3 reps på max 53%",
         "done": false,
-        "TypeOfPr": "snatch"
+        "TypeOfPr": "snatch",
+        "ovningNr": 0
     },
     {
         "name": "Ryck häng",
@@ -178,7 +180,8 @@ export const passfyra =
         "setsDone": [false, false, false, false, false, false],
         "description": "Hängande vid mitten av knät",
         "done": false,
-        "TypeOfPr": "snatch"
+        "TypeOfPr": "snatch",
+        "ovningNr": 1
     },
     {
         "name": "Styrkevändning",
@@ -187,7 +190,8 @@ export const passfyra =
         "setsDone": [false, false, false, false, false, false],
         "description": "",
         "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "clean",
+        "ovningNr": 2
     },
     {
         "name": "Hopp med stång",
@@ -196,7 +200,8 @@ export const passfyra =
         "setsDone": [false, false, false, false, false, false],
         "description": "Hopp med stång, hängande från mitten låret, ryckfattning",
         "done": false,
-        "TypeOfPr": "snatch"
+        "TypeOfPr": "snatch",
+        "ovningNr": 3
     },
     {
         "name": "Stöt från rack",
@@ -205,16 +210,8 @@ export const passfyra =
         "setsDone": [false, false, false, false, false, false],
         "description": "Stöt från rack",
         "done": false,
-        "TypeOfPr": "clean"
-    },
-    {
-        "name": "Frontböj",
-        "percent": [79,	83,	87,	92,	97,	97,	100, 103],
-        "reps": [2, 2, 2, 2, 2, 2, 2, 2],
-        "setsDone": [false, false, false, false, false, false],
-        "description": "",
-        "done": false,
-        "TypeOfPr": "clean"
+        "TypeOfPr": "clean",
+        "ovningNr": 4
     }
 ];
 

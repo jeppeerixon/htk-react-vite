@@ -15,6 +15,7 @@ export default function Traning() {
   const [toggleOvning, setToggleOvning] = useState(false)
   const [nummer, setNummer] = useState(0)
   const [list, setList] = useState(Object)
+  let kiss = "";
 
   function handleClickDay(e: any) {
     setToggle(!toggle)
@@ -31,9 +32,7 @@ export default function Traning() {
     <>
     <section id="weekInfo">
       <h2>VECKANS PASS</h2>
-      <p>
-        {weeklyWorkoutsDone} av 4 pass slutförda
-      </p>
+      <p>{weeklyWorkoutsDone} av 4 pass slutförda</p>
       <p>Klicka på ett pass för att få övningar.</p>
       <div>
       {weekninename.map((passname) => (
@@ -42,9 +41,9 @@ export default function Traning() {
       </div>
     </section>
     
-    <div>
+    <div>      
       {toggle == true && 
-      
+        
         weeklyWorkouts[nummer].map(key => (
           
           <Dayprogram funk={handleClickWorkout} id={key.ovningNr} name={key.name}/>
@@ -56,8 +55,7 @@ export default function Traning() {
       {toggleOvning == true &&
       
         <Setsandreps {...list}/>
-        
-        
+      
       }
     </div>
     </>
